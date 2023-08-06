@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+# Ignore Entity Framework snapshots
+*.Designer.cs
+*.edmx
+*.Context.cs
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
